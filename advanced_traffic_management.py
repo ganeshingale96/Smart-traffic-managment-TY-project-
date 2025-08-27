@@ -41,9 +41,9 @@ except Exception as e:
     exit()
 
 def calculate_timers(car_counts):
-    time_per_car = 1.5  # Reduced from 3 seconds
-    min_time = 5.0      # Minimum time per lane
-    max_time = 20.0     # Maximum time per lane
+    time_per_car = 1.5 
+    min_time = 5.0     
+    max_time = 20.0     
     
     # Calculate timers based on car counts
     timers = []
@@ -265,3 +265,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
